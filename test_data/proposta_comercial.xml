@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento>
+    <titulo>Proposta Comercial - Cliente XYZ</titulo>
+    <data>Sat Nov  1 11:06:23 PM -03 2025</data>
+    <valor>R$ 25.000,00</valor>
+    <prazo>30 dias</prazo>
+    <descricao>
+        Desenvolvimento de sistema de gestão customizado
+        incluindo módulos de:
+        - Controle de estoque
+        - Relatórios financeiros
+        - Dashboard executivo
+    </descricao>
+    <observacoes>Proposta válida por 15 dias</observacoes>
+</documento>

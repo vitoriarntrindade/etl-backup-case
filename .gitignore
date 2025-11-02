@@ -1,6 +1,19 @@
+# Logs
+logs/
+*.log
+
+# Manifests de backup
+manifests/
+
+# Environment variables
+.env
+
+# AWS credentials
+config.yaml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
