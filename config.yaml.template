@@ -1,0 +1,22 @@
+# Configuração da Pipeline de Backup S3
+# Copie este arquivo para config.yaml e configure suas credenciais
+
+aws:
+  access_key_id: "your_access_key_here"
+  secret_access_key: "your_secret_key_here"
+  region: "us-east-1"
+  
+s3:
+  bucket_name: "your-backup-bucket"
+  prefix: "backups/"  # Prefixo opcional para organizar arquivos no bucket
+  
+backup:
+  source_directory: "/path/to/backup"  # Diretório local para fazer backup
+  file_extensions: ["*.txt", "*.pdf", "*.docx"]  # Extensões de arquivo para backup
+  delete_after_upload: true  # Se true, deleta arquivos locais após upload bem-sucedido
+  
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_file: "logs/backup.log"
+  max_log_size_mb: 10
+  backup_count: 5
