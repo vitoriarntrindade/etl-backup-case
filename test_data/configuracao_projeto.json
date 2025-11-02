@@ -1,0 +1,23 @@
+{
+  "empresa": "Tech Solutions Ltda",
+  "projeto": "Sistema de Backup Automatizado",
+  "versao": "1.0.0",
+  "data_criacao": "2025-11-01",
+  "configuracoes": {
+    "backup_automatico": true,
+    "frequencia": "diaria",
+    "retencao_dias": 30,
+    "tipos_arquivo": ["txt", "pdf", "docx", "xlsx", "json", "xml"]
+  },
+  "estatisticas": {
+    "arquivos_processados": 1250,
+    "tamanho_total_mb": 45.7,
+    "tempo_execucao_segundos": 127,
+    "taxa_sucesso_percent": 99.2
+  },
+  "contato": {
+    "responsavel": "Equipe DevOps",
+    "email": "devops@techsolutions.com",
+    "telefone": "+55 11 9999-8888"
+  }
+}
