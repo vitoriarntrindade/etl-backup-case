@@ -8,3 +8,8 @@ flake8==7.1.1
 mypy==1.12.1
 pre-commit==4.0.1
 types-PyYAML==6.0.12.20240917
+
+# Documentation
+mkdocs==1.6.1
+mkdocs-material==9.6.23
+mkdocs-mermaid2-plugin==1.2.3
